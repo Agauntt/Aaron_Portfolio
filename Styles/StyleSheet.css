@@ -27,3 +27,9 @@ header {
     border-bottom:solid;
     border-color: gray;
 }
+
+#pupper {
+    margin: 15px;
+    height: 238px;
+    width: 350px;
+}
