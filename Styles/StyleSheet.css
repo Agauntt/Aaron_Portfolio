@@ -11,6 +11,19 @@ nav li {
     font-size: 1.2rem;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
 #portfolio, #contact {
     border-right: 1px;
     border-left:solid;
@@ -26,4 +39,8 @@ header {
     border-bottom: 1px;
     border-bottom:solid;
     border-color: gray;
+}
+
+.links a {
+    color: black;
 }
