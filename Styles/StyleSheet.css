@@ -1,46 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+    --background: rgba(53, 52, 52, 0.85);
+}
+
 body {
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(218, 214, 214);
 }
 
-.jumbotron {
-    margin-bottom: 10px;
+nav {
+    margin-bottom: 15px;
 }
 
-nav li {
-    margin-left: 10px;
+
+.navbar-text {
+    font-size: 1.5rem;
+    margin-right: 1em;
+}
+
+#nav-title {
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     font-size: 1.2rem;
 }
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 300px;
     margin: auto;
+    padding: 5px;
     text-align: center;
 }
 
 .title {
     color: grey;
     font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.edu {
+    margin-bottom: 5px;
 }
 
 #portfolio, #contact {
     border-right: 1px;
     border-left:solid;
     padding-left:8px;
-}
-
-#Outer_Limit {
-    border:solid;
-    border-color: rgb(85, 84, 84);
-}
-
-header {
-    border-bottom: 1px;
-    border-bottom:solid;
-    border-color: gray;
-}
-
-.links a {
-    color: black;
 }
