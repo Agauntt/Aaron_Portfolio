@@ -79,17 +79,21 @@ nav a {
     left: 0
 }
 
+section {
+    
+}
+
 #name {
     font-family: "Ubuntu", "sans-serif";
     font-weight: 100;
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: center;
     
 }
 
 #about {
     font-family: "Dosis", "sans-serif";
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -105,9 +109,9 @@ nav a {
 .welcome a {
     font-family: "Dosis", "sans-serif";
     font-weight: 100;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 15px;
-    font-size: 5vw;
+    font-size: 4vw;
     color: aliceblue;
 }
 
@@ -118,6 +122,21 @@ nav a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 70%;
     height: 50%;
 }
+
+#welcome-border {
+    min-width: 80%;
+    border-bottom: solid!important;
+    border-width: 1;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #about {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
