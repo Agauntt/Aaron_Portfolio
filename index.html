@@ -14,10 +14,12 @@
      <link rel="stylesheet" type="text/css" media="screen" href="Styles/StyleSheet.css" />
     <!-- Linking icon library-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Linking fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Dosis|Ubuntu" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <!-- <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 
         <span class="navbar-text" id="nav-title">Aaron Gauntt</span>
@@ -41,10 +43,27 @@
         </ul>
         </div>
     </nav> 
-    </header>
+    </header> -->
 
         <div class="container">
-        <section id="about">
+        <div id="particles-js"></div>
+        <section class="welcome">
+        <h1 id="name">Aaron Gauntt</h1>
+        <p id="about">Hello! My name is Aaron Gauntt (pronounced 'Gant'). I am a full stack developer based in Austin. looking to apply my skills to new and exciting projects. Feel free to look around and see more of what I have built.</p>
+        <div class="links text-center">
+            <a type="email" href="mailto:gauntta@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.facebook.com/aaron.gauntt1"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/aaron-gauntt-2b9683102/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/Agauntt"><i class="fa fa-github"></i></a>
+        </div>
+            
+            <a href="#about">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#projects">Projects</a>
+    
+        </section>
+
+        <!-- <section id="about">
         <div class="row">
         <div class="col-4">
             <div class="card">
@@ -64,7 +83,7 @@
             <p>Hello! My name, as you can probably guess by now, is Aaron Gauntt (pronounced 'Gant'). I am a full stack developer looking to apply my skills to new and exciting projects. Feel free to look around and see more of what I have built.</p>
         </div>
         </div>
-        <br>
+        <br> -->
         <!-- <section id="portfolio">
             <h1>Portfolio</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
@@ -76,6 +95,17 @@
         </section> -->
     </div>
     <footer></footer>  
-    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/js/particles.json', function() {
+            console.log("particles.json loaded");
+        });
+    </script>
 </body>
 </html>
