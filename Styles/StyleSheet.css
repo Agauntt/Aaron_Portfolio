@@ -3,10 +3,10 @@
 :root {
     --background: rgba(53, 52, 52, 0.85);
 }
-
+/* 
 body {
     background-color: rgb(15, 16, 24);
-}
+} */
 
 /* nav {
     margin-bottom: 15px;
@@ -59,9 +59,15 @@ nav a {
     border-left:solid;
     padding-left:8px;
 } */
-
-#particles-js canvas {
-    display: block;
+.particles-js-canvas-el {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0;
+    background: rgb(15, 16, 24);
+  }
+/* #particles-js canvas {
+    height: 100%;
+    z-index: -10;
     vertical-align: bottom;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -69,36 +75,24 @@ nav a {
     opacity: 1;
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
-}
-#particles-js {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0
-}
-
-section {
-    
-}
+} */
 
 #name {
     font-family: "Ubuntu", "sans-serif";
     font-weight: 100;
-    font-size: 8vw;
+    font-size: 5vw;
     text-align: center;
     
 }
 
 #about {
     font-family: "Dosis", "sans-serif";
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 
 .links a {
-    font-size: 6vw;
+    font-size: 4vw;
     align-content: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -110,8 +104,8 @@ section {
     font-family: "Dosis", "sans-serif";
     font-weight: 100;
     margin-top: 20px;
-    margin-left: 15px;
-    font-size: 4vw;
+    margin-left: 20px;
+    font-size: 3vw;
     color: aliceblue;
 }
 
@@ -124,6 +118,7 @@ section {
     transform: translate(-50%, -50%);
     width: 70%;
     height: 50%;
+    z-index: 1;
 }
 
 #welcome-border {
@@ -134,9 +129,39 @@ section {
     margin-bottom: 15px;
 }
 
+section {
+    font-family: "Dosis", "sans-serif";
+    text-align: center;
+    background: white;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+#skills h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#skills i{
+    /* font-family: "Dosis", "sans-serif"; */
+    align-content: center;
+    font-size: 10vh;
+    margin: 15px;
+    margin-bottom: 15px!important;
+}
+
 @media only screen and (max-width: 600px) {
     #about {
       font-size: 15px;
       font-weight: 400;
+    }
+    #name {
+        font-size: 25px;
+        padding-bottom: 15px; 
+    }
+    #skills h2{
+        font-size: 35px;
+        margin-top: 40px;
     }
   }
