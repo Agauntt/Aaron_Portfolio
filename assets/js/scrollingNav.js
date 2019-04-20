@@ -27,7 +27,7 @@ $(document).ready(function(){
 
   // Or with jQuery
 
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
+ // $(document).ready(function(){
+  //  $('.carousel').carousel();
+ // });
       
