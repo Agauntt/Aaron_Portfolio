@@ -23,11 +23,33 @@ $(document).ready(function(){
         });
       }  // End if
     });
-  });
+    $('.carousel').carousel();
 
-  // Or with jQuery
+    function descriptionSwitch(e) {
+    var desc1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    var desc2 = "Dui ut ornare lectus sit amet.";
+    var desc3 = "Venenatis urna cursus eget nunc scelerisque.";
+    var desc4 = "Consectetur adipiscing elit duis tristique sollicitudin nibh sit.";
 
- // $(document).ready(function(){
-  //  $('.carousel').carousel();
- // });
-      
+    switch (e) {
+      case "carousel-1": 
+      $("#folio-description").text(desc1);
+      break;
+      case "carousel-2":
+      $("#folio-description").text(desc2);
+      break;
+      case "carousel-3": 
+      $("#folio-description").text(desc3);
+      break;
+      case "carousel-4":
+      $("#folio-description").text(desc4);
+      break;
+    }
+  }
+
+    $(".carousel-item").on("click", function(event) {
+      var id = $(this).attr("id");
+      console.log(id);
+     descriptionSwitch(id);
+    });
+  });      

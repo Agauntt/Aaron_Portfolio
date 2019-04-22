@@ -152,7 +152,23 @@ section {
 }
 
 #portfolio h2 {
-    
+    margin-top: 40px;
+}
+
+.carousel-item {
+    font-size: 6vh;
+    color: black;
+    margin-top: 150x;
+    text-align: center!important;
+}
+
+.carousel img {
+    height: 250px;
+    width: 250px!important;
+}
+
+.carousel {
+    height: 300px!important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -167,5 +183,9 @@ section {
     #skills h2{
         font-size: 35px;
         margin-top: 40px;
+    }
+    .carousel img {
+        height: 150px;
+        width: 150px!important;
     }
   }
