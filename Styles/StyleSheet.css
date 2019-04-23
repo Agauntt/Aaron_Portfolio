@@ -138,7 +138,7 @@ section {
 }
 
 #skills h2 {
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 20px;
     font-size: 50px;
 }
@@ -152,14 +152,15 @@ section {
 }
 
 #portfolio h2 {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .carousel-item {
-    font-size: 6vh;
+    font-size: 4vh;
     color: black;
     margin-top: 150x;
     text-align: center!important;
+    align-content: center!important;
 }
 
 .carousel img {
@@ -168,7 +169,17 @@ section {
 }
 
 .carousel {
-    height: 300px!important;
+    align-content: center!important;
+    height: 400px!important;
+}
+
+#github-link i {
+    font-size: 4vh;
+    color: black;
+}
+
+#deployment-link i {
+    font-size: 4vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -187,5 +198,8 @@ section {
     .carousel img {
         height: 150px;
         width: 150px!important;
+    }
+    .carousel {
+        height: 200px!important;
     }
   }
