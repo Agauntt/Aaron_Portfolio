@@ -3,79 +3,13 @@
 :root {
     --background: rgba(53, 52, 52, 0.85);
 }
-/* 
-body {
-    background-color: rgb(15, 16, 24);
-} */
 
-/* nav {
-    margin-bottom: 15px;
-}
-
-
-.navbar-text {
-    font-size: 1.5rem;
-    margin-right: 1em;
-}
-
-#nav-title {
-    color: white;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 300px;
-    margin: auto;
-    padding: 5px;
-    text-align: center;
-}
-
-.title {
-    color: rgb(85, 85, 85);
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.edu {
-    margin-bottom: 5px;
-}
-
-#portfolio, #contact {
-    border-right: 1px;
-    border-left:solid;
-    padding-left:8px;
-} */
 .particles-js-canvas-el {
     width: 100% !important;
     height: 100% !important;
     z-index: 0;
     background: rgb(15, 16, 24);
   }
-/* #particles-js canvas {
-    height: 100%;
-    z-index: -10;
-    vertical-align: bottom;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-    transition: opacity .8s ease, transform 1.4s ease
-} */
 
 #name {
     font-family: "Ubuntu", "sans-serif";
@@ -102,6 +36,7 @@ nav a {
 
 .welcome a {
     font-family: "Dosis", "sans-serif";
+    padding: 15px;
     font-weight: 100;
     margin-top: 20px;
     margin-left: 20px;
